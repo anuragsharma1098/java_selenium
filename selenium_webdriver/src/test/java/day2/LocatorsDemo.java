@@ -56,5 +56,7 @@ public class LocatorsDemo {
             System.out.println(img.getAttribute("src"));
         }
 
+        driver.quit();
+
     }
 }
