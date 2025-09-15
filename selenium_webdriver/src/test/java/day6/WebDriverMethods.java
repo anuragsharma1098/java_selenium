@@ -28,6 +28,7 @@ public class WebDriverMethods {
 
         WebDriver driver1 = new ChromeDriver();
         driver1.get("https://www.flipkart.com/");
+        
         // condition methods - returns boolean value
         // isDisplayed - to check if the element is displayed or not
         System.out.println(driver1.findElement(By.name("q"))
