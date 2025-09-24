@@ -76,7 +76,7 @@ public class HandleCheckBoxes {
             }
         }
 
-        // driver.quit();
+        driver.quit();
 
     }
 }
