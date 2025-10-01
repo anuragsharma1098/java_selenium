@@ -2,8 +2,6 @@ package day11_HandleDropDown;
 
 import java.time.Duration;
 
-import javax.swing.Action;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -52,7 +50,7 @@ public class DrpDwnHandsOn {
                 .xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div"))
                 .click();
         // select any one option
-        driver.findElement(By.xpath("//span[normalize-space()='Full-TimePermanent']")).click();
+        driver.findElement(By.xpath("//span[normalize-space()='Full-Time Permanent']")).click();
         Thread.sleep(5000);
 
         
@@ -60,8 +58,9 @@ public class DrpDwnHandsOn {
         // MultiSelect DropDown
         // go to link
         driver.get("https://testautomationpractice.blogspot.com/");
-        WebElement multi_select = driver.findElement(By.xpath("//select[@id='colors']"));
+        // WebElement multi_select = driver.findElement(By.xpath("//select[@id='colors']"));
         Actions actions = new Actions(driver);
+        // actions.keyDown(Keys.CONTROL); // for windows
         actions.keyDown(Keys.COMMAND)
                 .click(driver.findElement(By.xpath("//*[@id=\"colors\"]/option[1]")))
                 .click(driver.findElement(By.xpath("//*[@id=\"colors\"]/option[2]")))
