@@ -60,8 +60,8 @@ public class DrpDwnHandsOn {
         driver.get("https://testautomationpractice.blogspot.com/");
         // WebElement multi_select = driver.findElement(By.xpath("//select[@id='colors']"));
         Actions actions = new Actions(driver);
-        // actions.keyDown(Keys.CONTROL); // for windows
-        actions.keyDown(Keys.COMMAND)
+        // actions.keyDown(Keys.COMMAND) // for mac
+        actions.keyDown(Keys.CONTROL) // for windows
                 .click(driver.findElement(By.xpath("//*[@id=\"colors\"]/option[1]")))
                 .click(driver.findElement(By.xpath("//*[@id=\"colors\"]/option[2]")))
                 .click(driver.findElement(By.xpath("//option[@value='yellow']")))
