@@ -3,6 +3,7 @@ package day14_DatePickers;
 import java.time.Duration;
 import java.time.Month;
 import java.util.HashMap;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -32,7 +33,7 @@ public class DatePickerDemo2 {
         return vmonth;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -41,7 +42,7 @@ public class DatePickerDemo2 {
         // input date
         String req_year = "2015";
         String req_month = "Mar";
-        String rq_date = "1";
+        String req_date = "1";
         driver.findElement(By.xpath("//*[@id=\"txtDate\"]")).click();
 
         // select year
@@ -49,13 +50,22 @@ public class DatePickerDemo2 {
         Select selectyear = new Select(yeardrpdwn);
         selectyear.selectByValue(req_year);
 
-        // // select month
-        // WebElement monthdrpdwn = driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
-        // Select selectmonth = new Select(monthdrpdwn);
-        // selectmonth.selectByVisibleText(req_month);
+        // select month
+        WebElement monthdrpdwn = driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
+        Select selectmonth = new Select(monthdrpdwn);
+        selectmonth.selectByVisibleText(req_month);
 
-        String curr_month = driver.findElement(By.xpath("//select[@aria-label='Select month']")).getText();
-        System.out.println("Current month: " + curr_month);
+        // select date
+        List<WebElement> dates = driver.findElements(By
+                                .xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody//td/a"));
+                for (WebElement ele : dates) {
+                        String dt = ele.getText();
+                        if (dt.equals(req_date)) {
+                                ele.click();
+                                break;
+                        }
+                }
+        Thread.sleep(5000);
 
         driver.quit();
     }
