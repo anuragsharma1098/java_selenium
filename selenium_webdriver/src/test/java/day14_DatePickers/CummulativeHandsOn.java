@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class DatePickerHandsOn {
+public class CummulativeHandsOn {
 
         public static void DatePicker(WebDriver driver, String dd, String mm, String yy) {
                 // select year
