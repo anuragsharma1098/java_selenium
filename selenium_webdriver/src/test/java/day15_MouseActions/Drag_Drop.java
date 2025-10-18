@@ -22,6 +22,7 @@ public class Drag_Drop {
                 .xpath("//div[@id='div2']"));
         // drap and drop
         act.dragAndDrop(src_ele, trg_ele).perform();
+        driver.quit();
     }
 
 }

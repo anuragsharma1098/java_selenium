@@ -27,5 +27,6 @@ public class SliderDemo {
         act.dragAndDropBy(init_sli, 50, 4).perform();
         System.out.println("Position of slider after movement: "
                 + init_sli.getLocation());
+        driver.quit();
     }
 }
