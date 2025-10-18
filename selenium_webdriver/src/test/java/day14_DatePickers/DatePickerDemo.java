@@ -70,6 +70,7 @@ public class DatePickerDemo {
                                 .xpath("//*[@id=\"datepicker\"]")).click();
                 select_month_year(driver, month, year);
                 select_date(driver, date);
+                driver.quit();
 
         }
 }

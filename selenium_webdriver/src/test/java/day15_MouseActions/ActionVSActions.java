@@ -23,5 +23,6 @@ public class ActionVSActions {
         Action myaction = act.contextClick(button).build();
         // performing action
         myaction.perform();
+        driver.quit();
     }
 }
