@@ -50,6 +50,7 @@ public class FDCalculator {
             Thread.sleep(5000);
             driver.findElement(By.xpath("//img[@class='PL5']")).click(); // Click on Reset button
         }
+        System.out.println("Test Completed Successfully");
         driver.quit();
     }
 }
