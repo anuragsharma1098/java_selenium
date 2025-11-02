@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My_Suite">
+  <test name="My_Test">
+    <classes>
+      <class name="day22_TestNG_Intro.FirstTestCase"/>
+      <class name="day22_TestNG_Intro.OrangeHRMTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
