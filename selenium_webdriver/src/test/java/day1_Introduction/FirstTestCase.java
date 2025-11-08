@@ -42,6 +42,6 @@ public class FirstTestCase {
             System.out.println("Test Failed");
             System.out.println("Actual Title: " + actualTitleEdge);
         }
-        driverEdge.close();
+        driverEdge.quit();
     }
 }
