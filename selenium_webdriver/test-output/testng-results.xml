@@ -1,121 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-05T22:49:29 IST" name="Suite" finished-at="2025-11-05T22:49:29 IST" duration-ms="126">
+  <suite started-at="2025-11-08T18:31:22 IST" name="Grouping_Suite" finished-at="2025-11-08T18:31:22 IST" duration-ms="159">
     <groups>
+      <group name="functional">
+        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-11-05T22:49:29 IST" name="Test" finished-at="2025-11-05T22:49:29 IST" duration-ms="126">
-      <class name="day23_TestAnnotations_Assertions.AllTestAnnotatios">
-        <test-method is-config="true" signature="bs()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="bs" finished-at="2025-11-05T22:49:29 IST" duration-ms="16" status="PASS">
+    <test started-at="2025-11-08T18:31:22 IST" name="Grouping_Test" finished-at="2025-11-08T18:31:22 IST" duration-ms="159">
+      <class name="day24_DependencyMethods_GroupingTests.PaymentTests">
+        <test-method signature="paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" started-at="2025-11-08T18:31:22 IST" name="paymentInRupee" finished-at="2025-11-08T18:31:22 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="bt" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- paymentInRupee -->
+        <test-method signature="paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" started-at="2025-11-08T18:31:22 IST" name="paymentInDollar" finished-at="2025-11-08T18:31:22 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bt -->
-        <test-method is-config="true" signature="login1()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login1" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="abc()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="abc" finished-at="2025-11-05T22:49:29 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abc -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="pqr()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="pqr" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pqr -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="xyz()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="xyz" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- xyz -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="search()[pri:1, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="search" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="search1()[pri:1, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="search1" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="advancedSearch()[pri:2, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="advancedSearch" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- advancedSearch -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="login" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="advancedSearch1()[pri:2, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="advancedSearch1" finished-at="2025-11-05T22:49:29 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- advancedSearch1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="logout1()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="logout1" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout1 -->
-        <test-method is-config="true" signature="at()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="at" finished-at="2025-11-05T22:49:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:day23_TestAnnotations_Assertions.AllTestAnnotatios@77c2494c]" started-at="2025-11-05T22:49:29 IST" name="as" finished-at="2025-11-05T22:49:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- as -->
-      </class> <!-- day23_TestAnnotations_Assertions.AllTestAnnotatios -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- paymentInDollar -->
+      </class> <!-- day24_DependencyMethods_GroupingTests.PaymentTests -->
+    </test> <!-- Grouping_Test -->
+  </suite> <!-- Grouping_Suite -->
 </testng-results>
