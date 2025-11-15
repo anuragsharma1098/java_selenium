@@ -46,7 +46,7 @@ public class DataProviderDemo {
 		driver.quit();
 	}
 
-	@DataProvider(name = "loginDataProvider")
+	@DataProvider(name = "loginDataProvider", indices = { 0, 1 })
 	Object loginData() {
 		Object data[][] = { { "Admin", "admin123" }, { "Admin1", "admin123" }, { "Admin", "Admin1234" },
 				{ "Admin1", "Admin1234" } };
