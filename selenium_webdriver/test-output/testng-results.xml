@@ -1,33 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-08T18:31:22 IST" name="Grouping_Suite" finished-at="2025-11-08T18:31:22 IST" duration-ms="159">
+  <suite started-at="2025-11-15T19:42:01 IST" name="Suite" finished-at="2025-11-15T19:42:14 IST" duration-ms="12686">
     <groups>
-      <group name="functional">
-        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-      </group> <!-- functional -->
-      <group name="regression">
-        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="PaymentTests.paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInRupee" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-        <method signature="PaymentTests.paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" name="paymentInDollar" class="day24_DependencyMethods_GroupingTests.PaymentTests"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-11-08T18:31:22 IST" name="Grouping_Test" finished-at="2025-11-08T18:31:22 IST" duration-ms="159">
-      <class name="day24_DependencyMethods_GroupingTests.PaymentTests">
-        <test-method signature="paymentInRupee()[pri:1, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" started-at="2025-11-08T18:31:22 IST" name="paymentInRupee" finished-at="2025-11-08T18:31:22 IST" duration-ms="26" status="PASS">
+    <test started-at="2025-11-15T19:42:01 IST" name="TestSafari" finished-at="2025-11-15T19:42:02 IST" duration-ms="582">
+      <class name="day25_Parameterization_Parallel_Testing.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@20d525]" started-at="2025-11-15T19:42:01 IST" name="setup" finished-at="2025-11-15T19:42:02 IST" duration-ms="415" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentInRupee -->
-        <test-method signature="paymentInDollar()[pri:2, instance:day24_DependencyMethods_GroupingTests.PaymentTests@639c2c1d]" started-at="2025-11-08T18:31:22 IST" name="paymentInDollar" finished-at="2025-11-08T18:31:22 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day25_Parameterization_Parallel_Testing.ParamTest@20d525]" started-at="2025-11-15T19:42:02 IST" name="testLogo" finished-at="2025-11-15T19:42:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentInDollar -->
-      </class> <!-- day24_DependencyMethods_GroupingTests.PaymentTests -->
-    </test> <!-- Grouping_Test -->
-  </suite> <!-- Grouping_Suite -->
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day25_Parameterization_Parallel_Testing.ParamTest@20d525]" started-at="2025-11-15T19:42:02 IST" name="testTitle" finished-at="2025-11-15T19:42:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day25_Parameterization_Parallel_Testing.ParamTest@20d525]" started-at="2025-11-15T19:42:02 IST" name="testURL" finished-at="2025-11-15T19:42:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
+Driver unavailable: /usr/bin/safaridriver
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@20d525]" started-at="2025-11-15T19:42:02 IST" name="tearDown" finished-at="2025-11-15T19:42:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day25_Parameterization_Parallel_Testing.ParamTest -->
+    </test> <!-- TestSafari -->
+    <test started-at="2025-11-15T19:42:01 IST" name="TestChrome" finished-at="2025-11-15T19:42:14 IST" duration-ms="12395">
+      <class name="day25_Parameterization_Parallel_Testing.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@37ceb1df]" started-at="2025-11-15T19:42:01 IST" name="setup" finished-at="2025-11-15T19:42:13 IST" duration-ms="11506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day25_Parameterization_Parallel_Testing.ParamTest@37ceb1df]" started-at="2025-11-15T19:42:13 IST" name="testLogo" finished-at="2025-11-15T19:42:13 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day25_Parameterization_Parallel_Testing.ParamTest@37ceb1df]" started-at="2025-11-15T19:42:13 IST" name="testTitle" finished-at="2025-11-15T19:42:13 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day25_Parameterization_Parallel_Testing.ParamTest@37ceb1df]" started-at="2025-11-15T19:42:13 IST" name="testURL" finished-at="2025-11-15T19:42:13 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@37ceb1df]" started-at="2025-11-15T19:42:13 IST" name="tearDown" finished-at="2025-11-15T19:42:14 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day25_Parameterization_Parallel_Testing.ParamTest -->
+    </test> <!-- TestChrome -->
+    <test started-at="2025-11-15T19:42:01 IST" name="TestEdge" finished-at="2025-11-15T19:42:14 IST" duration-ms="12686">
+      <class name="day25_Parameterization_Parallel_Testing.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@662ac478]" started-at="2025-11-15T19:42:01 IST" name="setup" finished-at="2025-11-15T19:42:13 IST" duration-ms="11475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:day25_Parameterization_Parallel_Testing.ParamTest@662ac478]" started-at="2025-11-15T19:42:13 IST" name="testLogo" finished-at="2025-11-15T19:42:13 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:day25_Parameterization_Parallel_Testing.ParamTest@662ac478]" started-at="2025-11-15T19:42:13 IST" name="testTitle" finished-at="2025-11-15T19:42:13 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:day25_Parameterization_Parallel_Testing.ParamTest@662ac478]" started-at="2025-11-15T19:42:13 IST" name="testURL" finished-at="2025-11-15T19:42:13 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day25_Parameterization_Parallel_Testing.ParamTest@662ac478]" started-at="2025-11-15T19:42:13 IST" name="tearDown" finished-at="2025-11-15T19:42:14 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day25_Parameterization_Parallel_Testing.ParamTest -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite -->
 </testng-results>
