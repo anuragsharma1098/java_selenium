@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<listeners>
 		<listener
-			class-name="day26_Listeners_ExtentReportGeneration.MyListener" />
+			class-name="day26_Listeners_ExtentReportGeneration.ExtentReportManager" />
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
