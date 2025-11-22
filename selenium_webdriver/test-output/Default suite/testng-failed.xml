@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day25_Parameterization_Parallel_Testing.ParamTest">
+      <class name="day26_Listeners_ExtentReportGeneration.OrangeHRMTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="testHomepageTitle"/>
+          <include name="testURL"/>
           <include name="setup"/>
-          <include name="testLogo"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- day25_Parameterization_Parallel_Testing.ParamTest -->
+      </class> <!-- day26_Listeners_ExtentReportGeneration.OrangeHRMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\anura\Desktop\java_selenium\selenium_webdriver\src\test\java\day25_Parameterization_Parallel_Testing\testng.xml</span>
+                    <span>C:\Users\anura\Desktop\java_selenium\selenium_webdriver\src\test\java\day26_Listeners_ExtentReportGeneration\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,  3 skipped,  6 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="day26_Listeners_ExtentReportGeneration.OrangeHRMTest" class="method navigator-link" hash-for-method="testURL">testURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -103,17 +117,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testURL">testURL</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="day26_Listeners_ExtentReportGeneration.OrangeHRMTest" class="method navigator-link" hash-for-method="testHomepageTitle">testHomepageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -127,32 +131,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testURL">testURL</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="day25_Parameterization_Parallel_Testing.ParamTest" class="method navigator-link" hash-for-method="testURL">testURL</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="day26_Listeners_ExtentReportGeneration.OrangeHRMTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -167,117 +146,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">day25_Parameterization_Parallel_Testing.ParamTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">day26_Listeners_ExtentReportGeneration.OrangeHRMTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogo">
-                  </a> <!-- testLogo -->
-                  <span class="method-name">testLogo</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:84)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:80)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:57)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:48)
-	at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
-	... 25 more
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTitle">
-                  </a> <!-- testTitle -->
-                  <span class="method-name">testTitle</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:84)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:80)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:57)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:48)
-	at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
-	... 25 more
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testURL">
                   </a> <!-- testURL -->
                   <span class="method-name">testURL</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:84)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:80)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:57)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:48)
-	at day25_Parameterization_Parallel_Testing.ParamTest.setup(ParamTest.java:31)
+                  <div class="stack-trace">java.lang.AssertionError: URL is correct expected [https://opensource-demo.orangehrmlive.com/web/index.php/auth/loginn] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at day26_Listeners_ExtentReportGeneration.OrangeHRMTest.testURL(OrangeHRMTest.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 69, executed: [--browser, safari, --language-binding, java, --output, json]
-Driver unavailable: /usr/bin/safaridriver
-Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: driver.version: SafariDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:176)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:274)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
-	... 25 more
-... Removed 13 stack frames
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">day26_Listeners_ExtentReportGeneration.OrangeHRMTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomepageTitle">
+                  </a> <!-- testHomepageTitle -->
+                  <span class="method-name">testHomepageTitle</span>
+                  <div class="stack-trace">java.lang.Throwable: Method day26_Listeners_ExtentReportGeneration.OrangeHRMTest.testHomepageTitle() on instance day26_Listeners_ExtentReportGeneration.OrangeHRMTest@5bda8e08 depends on not successfully finished methods 
+[day26_Listeners_ExtentReportGeneration.OrangeHRMTest.testURL() on instance day26_Listeners_ExtentReportGeneration.OrangeHRMTest@5bda8e08]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -286,7 +189,7 @@ Driver info: driver.version: SafariDriver
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">day25_Parameterization_Parallel_Testing.ParamTest</span>
+              <span class="class-name">day26_Listeners_ExtentReportGeneration.OrangeHRMTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -296,71 +199,26 @@ Driver info: driver.version: SafariDriver
                   <span class="method-name">testLogo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogo">
-                  </a> <!-- testLogo -->
-                  <span class="method-name">testLogo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTitle">
-                  </a> <!-- testTitle -->
-                  <span class="method-name">testTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTitle">
-                  </a> <!-- testTitle -->
-                  <span class="method-name">testTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testURL">
-                  </a> <!-- testURL -->
-                  <span class="method-name">testURL</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testURL">
-                  </a> <!-- testURL -->
-                  <span class="method-name">testURL</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\anura\Desktop\java_selenium\selenium_webdriver\src\test\java\day25_Parameterization_Parallel_Testing\testng.xml</span>
+            <span class="header-content">C:\Users\anura\Desktop\java_selenium\selenium_webdriver\src\test\java\day26_Listeners_ExtentReportGeneration\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestEdge&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;day26_Listeners_ExtentReportGeneration.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;day25_Parameterization_Parallel_Testing.ParamTest&quot;/&gt;
+      &lt;class name=&quot;day26_Listeners_ExtentReportGeneration.OrangeHRMTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestEdge --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestChrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;day25_Parameterization_Parallel_Testing.ParamTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestChrome --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestSafari&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;day25_Parameterization_Parallel_Testing.ParamTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestSafari --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -372,13 +230,7 @@ Driver info: driver.version: SafariDriver
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestEdge (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestChrome (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestSafari (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -404,48 +256,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogo')
-data.setCell(0, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(0, 3, 99);
+data.setCell(0, 2, 'day26_Listeners_ExtentReportGeneration.OrangeHRMTest')
+data.setCell(0, 3, 57);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLogo')
-data.setCell(1, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(1, 3, 85);
+data.setCell(1, 1, 'testURL')
+data.setCell(1, 2, 'day26_Listeners_ExtentReportGeneration.OrangeHRMTest')
+data.setCell(1, 3, 17);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testTitle')
-data.setCell(2, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(2, 3, 31);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testTitle')
-data.setCell(3, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(3, 3, 31);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testURL')
-data.setCell(4, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(4, 3, 26);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testURL')
-data.setCell(5, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(5, 3, 25);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testTitle')
-data.setCell(6, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(6, 3, 0);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testURL')
-data.setCell(7, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(7, 3, 0);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testLogo')
-data.setCell(8, 2, 'day25_Parameterization_Parallel_Testing.ParamTest')
-data.setCell(8, 3, 0);
+data.setCell(2, 1, 'testHomepageTitle')
+data.setCell(2, 2, 'day26_Listeners_ExtentReportGeneration.OrangeHRMTest')
+data.setCell(2, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 74 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -471,52 +299,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">day25_Parameterization_Parallel_Testing.ParamTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">day26_Listeners_ExtentReportGeneration.OrangeHRMTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(edge)</span>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
+              <div class="test-method">
+                <span class="method-name">testLogo</span>
+                <span class="method-start">9143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup(safari)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testLogo</span>
-                <span class="method-start">11478 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testLogo</span>
-                <span class="method-start">11507 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testTitle</span>
-                <span class="method-start">11587 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testTitle</span>
-                <span class="method-start">11596 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">testURL</span>
-                <span class="method-start">11624 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testURL</span>
-                <span class="method-start">11630 ms</span>
+                <span class="method-start">9207 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11653 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11658 ms</span>
+                <span class="method-name">teardown</span>
+                <span class="method-start">9234 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
