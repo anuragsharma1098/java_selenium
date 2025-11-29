@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Functional Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 22, 2025 09:42:44 PM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 29, 2025 06:45:52 PM</span></a>
 </li>
 </ul>
 </div>
@@ -83,7 +83,7 @@
           <div class="test-detail">
             <p class="name">testLogo</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:005</span>
+              <span>6:46:02 PM</span> / <span>00:00:00:005</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -92,8 +92,8 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testLogo</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
+<span class='badge badge-success'>11.29.2025 6:46:02 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:02 PM</span>
 <span class='badge badge-default'>00:00:00:005</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -107,7 +107,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:02 PM</td>
         <td>
           Test Case Started is testLogo
         </td>
@@ -117,24 +117,24 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">testLogo</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:002</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:46:12 PM</span> / <span>00:00:00:002</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">testLogo</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
+<h5 class="test-status text-fail">testLogo</h5>
+<span class='badge badge-success'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:12 PM</span>
 <span class='badge badge-default'>00:00:00:002</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -147,10 +147,25 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:42:54 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:46:12 PM</td>
         <td>
-          Test Case Passed is testLogo
+          Test Case Failed is testLogo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:46:12 PM</td>
+        <td>
+          Test Case Failed is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='company-branding']"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cbdddc276ed4259ab7209e2e0971cfb, findElement {using=xpath, value=//img[@alt='company-branding']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\anura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57972}, goog:processID: 18844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57972/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cbdddc276ed4259ab7209e2e0971cfb
         </td>
       </tr>
   </tbody>
@@ -165,7 +180,7 @@
           <div class="test-detail">
             <p class="name">testURL</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:000</span>
+              <span>6:46:12 PM</span> / <span>00:00:00:001</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -174,9 +189,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testURL</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-default'>00:00:00:000</span>
+<span class='badge badge-success'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -189,7 +204,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:12 PM</td>
         <td>
           Test Case Started is testURL
         </td>
@@ -206,7 +221,7 @@
           <div class="test-detail">
             <p class="name">testURL</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:000</span>
+              <span>6:46:12 PM</span> / <span>00:00:00:000</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -215,8 +230,8 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">testURL</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
+<span class='badge badge-success'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:12 PM</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -230,14 +245,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:12 PM</td>
         <td>
           Test Case Failed is testURL
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:12 PM</td>
         <td>
           Test Case Failed is java.lang.AssertionError: URL is correct expected [https://opensource-demo.orangehrmlive.com/web/index.php/auth/loginn] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
         </td>
@@ -254,7 +269,7 @@
           <div class="test-detail">
             <p class="name">testHomepageTitle</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:000</span>
+              <span>6:46:12 PM</span> / <span>00:00:00:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -263,8 +278,8 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testHomepageTitle</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
+<span class='badge badge-success'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:12 PM</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -278,7 +293,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:12 PM</td>
         <td>
           Test Case Started is testHomepageTitle
         </td>
@@ -295,7 +310,7 @@
           <div class="test-detail">
             <p class="name">testHomepageTitle</p>
             <p class="text-sm">
-              <span>9:42:54 PM</span> / <span>00:00:00:000</span>
+              <span>6:46:12 PM</span> / <span>00:00:00:000</span>
               <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
@@ -304,8 +319,8 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-skip">testHomepageTitle</h5>
-<span class='badge badge-success'>11.22.2025 9:42:54 PM</span>
-<span class='badge badge-danger'>11.22.2025 9:42:54 PM</span>
+<span class='badge badge-success'>11.29.2025 6:46:12 PM</span>
+<span class='badge badge-danger'>11.29.2025 6:46:12 PM</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -319,7 +334,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log skip-bg">Skip</span></td>
-        <td>9:42:54 PM</td>
+        <td>6:46:12 PM</td>
         <td>
           Test Case Skipped is testHomepageTitle
         </td>
@@ -343,25 +358,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 22, 2025 09:42:44 PM</h3>
+<h3>Nov 29, 2025 06:45:52 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 22, 2025 09:42:54 PM</h3>
+<h3>Nov 29, 2025 06:46:12 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>4</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -377,12 +392,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='66%'>
-<b>4</b> tests passed
+<div><small data-tooltip='50%'>
+<b>3</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='16%'><b>1</b> tests failed,
+<small data-tooltip='33%'><b>2</b> tests failed,
 <b>1</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -400,9 +415,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='14%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='28%'><b>2</b> events failed,
+<small data-tooltip='50%'><b>4</b> events failed,
 <b data-tooltip='%'>4</b> others
 </small>
 </div>
@@ -419,7 +434,7 @@
 </div></div>
 <script>
 var timeline = {
-"testLogo":0.005,"testLogo":0.002,"testURL":0,"testURL":0,"testHomepageTitle":0,"testHomepageTitle":0
+"testLogo":0.005,"testLogo":0.002,"testURL":0.001,"testURL":0,"testHomepageTitle":0,"testHomepageTitle":0
 };
 </script>
 <div class="row">
@@ -458,8 +473,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 4,
-failParent: 1,
+passParent: 3,
+failParent: 2,
 warningParent: 0,
 skipParent: 1,
 childCount: 5,
@@ -475,8 +490,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
-failEvents: 2,
+passEvents: 0,
+failEvents: 4,
 warningEvents: 0,
 skipEvents: 1,
 infoEvents: 3

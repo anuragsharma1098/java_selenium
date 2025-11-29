@@ -12,6 +12,7 @@
           <include name="testURL"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="testLogo"/>
         </methods>
       </class> <!-- day26_Listeners_ExtentReportGeneration.OrangeHRMTest -->
     </classes>
