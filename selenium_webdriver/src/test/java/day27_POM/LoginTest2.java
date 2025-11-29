@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class LoginTest2 {
-	
+
 	WebDriver driver;
 
 	@BeforeClass
@@ -29,8 +29,10 @@ public class LoginTest2 {
 		lp.setUsername("Admin");
 		lp.setPassword("admin123");
 		lp.clickLogin();
-		
-		Assert.assertEquals(driver.getCurrentUrl(), "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index", "Login failed or URL mismatch");
+
+		Assert.assertEquals(driver.getCurrentUrl(),
+				"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+				"Login failed or URL mismatch");
 	}
 
 	@AfterClass
