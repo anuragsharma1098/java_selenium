@@ -1,6 +1,0 @@
-d3d1fab8bc30409db168ba8185348d53
-
-username- admin
-pwd- admin123456
-f_name- Admin
-email- anuragsharma1098@gmail.com
