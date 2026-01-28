@@ -1,3 +1,36 @@
-# Ignore files
-target/test-classes
-/.metadata/
+# Build artifacts
+target/
+bin/
+*.class
+
+# IDE files
+.classpath
+.factorypath
+.project
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+.metadata/
+
+# Large binary files
+jenkins.war
+jenkins_pwd.txt
+selenium-server-4.38.0.jar
+
+# Test and report output
+test-output/
+reports/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Maven cache
+.m2/
